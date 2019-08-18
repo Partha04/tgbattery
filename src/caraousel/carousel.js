@@ -15,7 +15,7 @@ class Carousel extends Component {
       animateimage=()=>{
           setInterval(()=>{ const index=(this.state.index +1)%images.length;
                     this.setState({index:index});}
-                ,3000)
+                ,5000)
       }
     changenextimg=()=>{
         const index=(this.state.index +1)%images.length;
