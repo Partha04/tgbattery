@@ -1,0 +1,57 @@
+.CAcontainer{
+    width:88%;
+    height:700px;
+    margin:auto;
+    position: relative;
+    padding: 0px;
+    border-left: 2px solid rgba(128, 128, 128, 0.274);
+    border-right: 2px solid rgba(128, 128, 128, 0.247);
+}
+.imageslide{
+    width:100%;
+    height: 100%;
+    margin: 0px;
+
+}
+.prev
+{
+    position: absolute;
+    top:50%; 
+    cursor: pointer;
+    left:10px;z-index: 1;
+    font-size: 200%;color: rgba(0, 0, 238, 0.596);
+    background: transparent;
+}
+.next{
+position: absolute;top: 50%;
+right: 10px;
+z-index: 1;
+font-size: 200%;color: rgba(0, 0, 238, 0.596);
+background: transparent;cursor: pointer;
+}
+
+.sepcaraousel{
+    height: 12px;
+    background:#1ec9ac
+}
+@media screen and (max-width: 896px) {
+    .sepcaraousel{
+        height: 8px
+    }
+    
+    .CAcontainer
+    {
+        width: 96%;
+        height:200px
+    }
+    .imageslide{
+        height:100%;
+        width:100%
+    }
+    .prev{
+        font-size: 100%
+    }
+    .next{
+        font-size:100% 
+    }
+}

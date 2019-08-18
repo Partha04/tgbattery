@@ -1,0 +1,109 @@
+.applications{
+    display: flex;
+
+}
+.appli{
+    width :20%;
+    background:#004A7F;
+}
+.buton{
+    width: 80%;
+    display: flex
+}
+
+.box{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color:#004A7F;
+    text-transform: uppercase;
+    padding: 0px;
+    border-left: 1px solid #004A7F;
+    border-right: 1px solid #004A7F;
+    position: relative;
+    height:100%;
+    width: 100%
+}
+.box img{
+    width: 60%;
+    transition: all 200ms ease-in;
+}
+.box img:hover{
+    width: 50%;
+
+}
+.sepapp{
+    height: 12px;
+    background:#1ec9ac
+}
+
+/*@media screen and (max-width: 700px){
+.applications{
+    height: auto
+}
+.appli{
+    width: 60vw;
+    height: 40vw;
+}
+.buton{
+  width: 40vw; 
+  height: 40vw;
+  display:block;
+}
+.box{
+    width: 50%;
+    height: 50%;
+    border :0px;
+    display: inline-block;
+}
+.box img{
+    height: 80%
+}
+}*/
+@media screen and (max-width: 540px){
+    .sepapp{
+        height: 8px
+    }
+    .applications{
+        height: auto
+    }
+    .appli{
+        width: 40vw;
+        height: 35vw;
+    }
+    .buton{
+      width: 60vw; 
+      height: 35vw;
+      display:block;
+
+    }
+    .box p{
+        margin-top: 1px;
+        display: none;
+    
+    }
+    .box{
+        width: 50%;
+        height: 50%;
+        border :0px;
+        display: inline-block;
+       
+    }
+    .imgcontainer{
+        border: 1px solid #004A7F;
+        border-radius: 10px;
+        margin:1px;
+    }
+    .box img{
+        width:50%;
+        height:70%;
+        margin:2px;
+        transition:all 150ms ease-in;
+    }
+    .box img:hover{
+        width: 55%;
+    }
+    .imgcontainer:hover{
+        background: #1ec9ac
+    }
+    }

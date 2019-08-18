@@ -1,0 +1,49 @@
+.footer
+{   margin-top: 5px;
+    height: 100px;
+    background: #1ec9ac;
+    color: aliceblue;
+    padding :5px;
+    display: flex;
+    justify-content: space-between
+}
+.fotlink{
+    display: flex;
+}
+.fotlink a{
+    padding:10px 10px 20px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;color: aliceblue
+}
+.social{
+    height: 50px;
+    text-align: center;
+    float: right;
+}
+.social img{
+    height: 100%;
+margin: 10px;
+border-radius: 70px;
+display:inline 
+}
+@media screen and (max-width: 896px) {
+    .footer{
+        display:flex;
+        text-align: center;height: 100px
+    }
+.fotlink{
+    display:none;
+}
+
+.social{
+    height:80%;
+    text-align: center;
+    float: none;
+    font-size: 80%;
+    margin: auto
+}
+.social img{
+    height: 70%;
+}   
+}

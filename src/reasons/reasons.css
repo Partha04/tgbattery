@@ -1,0 +1,61 @@
+.heag{
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(0, 74,172);
+    font-size: 120%;
+    margin-top : 50px;
+    margin-bottom:20px;
+}
+
+.outer {
+
+    text-align: center;
+    padding: 50px;
+    height: auto;
+    font-size: 110%
+}
+
+.inner{
+    border: 3px solid rgba(0, 74, 127, 0.24);
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+.inner h3{
+    margin: 70px 10px 10px 0px;
+    color: #004A7F;
+    text-transform: uppercase
+}
+.inner p{
+    margin-top: 30px;
+    margin-bottom:50px ;
+color:#004A7F;
+}
+.imp {
+   height:120px;margin-bottom:-60px;
+   margin-top:-20px;
+   transition: all 200ms ease-out;
+}
+.imp:hover{
+    height: 100px;
+    margin-bottom: -50px;
+}
+@media screen and (max-width: 600px) {
+    .heag{
+        font-size: 90%
+    }
+    .outer {
+        font-size: 90%;
+        text-align: center;
+        padding: 30px;
+        padding: -90px;
+
+    }
+    .imp {
+        height:70px;margin:-40px
+     }
+     .inner h3{
+        margin: 50px 10px 10px 10px
+    }
+}

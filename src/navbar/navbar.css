@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  .navbar {
+    height: 100px;
+    position: relative;
+  }
+  .imgnav {
+    padding: 10px;
+    height: 90%;
+    margin-left: 4%;
+  }
+  .navlinks {
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    margin: 0;
+  }
+  .navlinks ul {
+    list-style: none;
+    margin: 0;
+  }
+  .linkbutton {
+    display: inline-block;
+    text-align: baseline;
+    margin: 0;
+  }
+  
+  .linkbutton a {
+    height: 20px;
+    text-align: center;
+    color:#004A7F;
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 12px;
+    text-transform: uppercase;
+    text-shadow: 2px;
+    font-weight: bold;
+    transition: all 0.5 ease-in;
+  }
+  .linkbutton a:hover {
+    border-radius:5px 5px 0px 0px;
+    background: #1ec9ac;
+    color: rgb(235, 250, 231);
+  }
+  .burger {
+    display: none;
+    height: 30px;
+    width: 30px;
+    padding: 4.5px;
+    background-color: transparent;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: absolute;
+    border: 2px solid transparent;
+    margin: 15px;
+    top: 30%;
+    right: 5%;
+  }
+  .burger:hover {
+    border-radius: 3px;
+    border: 2px solid #004A7F;
+  }
+  .lines {
+    background-color: #004A7F;
+    border-radius: 2px;
+    height: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .sep {
+    overflow-x: hidden;
+    height: 12px;
+    width: 100%;
+    background-color: #1ec9ac
+  }
+  .sep2{
+    display: none;
+  }
+  .show {
+    display: none;
+  }
+  @media screen and (max-width: 992px) {
+    .burger {
+      display: inline;
+    }
+    .navlinks ul li {
+      display: none;
+    }
+    .sep2{
+      display:block;
+      overflow-x: hidden;
+      height: 10px;
+      width: 100%;
+      background-color:#1ec9ac;
+    }
+    .sep {
+      height: auto;
+      transition: all 23s
+    }
+    .show {
+      display: flex;
+      flex-direction: column;
+    }
+    .linkbutton {
+      width:100%;
+      height: 35px;
+      text-align: center;
+      padding: 10px;
+      padding-top: 20px;
+      border-bottom: 3px solid white;
+    }
+    .linkbutton a {
+      color: white;
+      padding-top: 10px;
+      width: 100%;
+    }
+    .linkbutton:hover {
+      background: #5adac4;
+    }
+    .linkbutton a:hover {
+      background: transparent;
+      color: rgb(235, 250, 231);
+    }
+  }
+  .hide{
+    display: none
+  }
