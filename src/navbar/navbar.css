@@ -74,8 +74,9 @@
     overflow-x: hidden;
     height: 12px;
     width: 100%;
-    background-color: #1ec9ac
-  }
+    background-color: #1ec9ac;
+    transition: all 1s;
+   }
   .sep2{
     display: none;
   }
@@ -98,7 +99,7 @@
     }
     .sep {
       height: auto;
-      transition: all 23s
+      transition: all 2s;
     }
     .show {
       display: flex;
@@ -123,6 +124,9 @@
     .linkbutton a:hover {
       background: transparent;
       color: rgb(235, 250, 231);
+    }
+    .imgnav{
+      width: 150px;height: 80%
     }
   }
   .hide{

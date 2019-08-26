@@ -42,7 +42,7 @@ background: transparent;cursor: pointer;
     .CAcontainer
     {
         width: 96%;
-        height:200px
+        height: 400px
     }
     .imageslide{
         height:100%;
@@ -53,5 +53,12 @@ background: transparent;cursor: pointer;
     }
     .next{
         font-size:100% 
+    }
+}
+@media screen and (max-width: 600px) {
+    .CAcontainer
+    {
+        width: 96%;
+        height: 200px
     }
 }

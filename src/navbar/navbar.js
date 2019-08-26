@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import logo from "./logo.png"
+import logo2 from "./logo2.png"
 import './navbar.css';
 class Navbar extends Component {
   state = { showMenu: false }

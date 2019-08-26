@@ -16,6 +16,9 @@
     font-size: 16px;
     text-transform: uppercase;color: aliceblue
 }
+.fotlink a:hover{
+    font-weight: bold
+}
 .social{
     height: 50px;
     text-align: center;
