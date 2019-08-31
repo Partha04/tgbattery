@@ -15,7 +15,7 @@ class Navbar extends Component {
     return ( <div>
       <header>
         <nav className="navbar">
-          <a href="home"><img className="imgnav" src={logo} alt="logo" /></a>
+          <a href="/"><img className="imgnav" src={logo} alt="logo" /></a>
           <div className="navlinks">
             <ul>
               <li className="linkbutton"><a href="aboutus">about us</a></li>
