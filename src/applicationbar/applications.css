@@ -87,12 +87,14 @@
         height: 50%;
         border :0px;
         display: inline-block;
+        
        
     }
     .imgcontainer{
         border: 1px solid #004A7F;
         border-radius: 10px;
         margin:1px;
+        box-shadow: 1px 3px #1ec9aca4;
     }
     .box img{
         width:50%;

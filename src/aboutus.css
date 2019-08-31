@@ -1,0 +1,39 @@
+.outer{
+    background-color: aliceblue;
+    display:flex;
+
+}
+.sideabout{
+    background-color: aqua;
+    width: 25%;height:100%
+}
+.sidetab{
+    padding:30px;
+    text-align: center;
+    color: aliceblue;
+    background-color: blue;
+}
+.sidetab2{
+    padding: 35px;
+    text-align: center;
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 125%;
+}
+.aboutdetails
+{
+    padding:4%;
+    width:75%;
+    
+}
+.aboutdetails h2{
+    
+    text-align: center
+}
+.aboutdetails p{
+    text-align: left
+}
+.aboutdetails ul{
+    list-style: none;
+    padding-left:2%
+}

@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import logo from "./logo.png"
-import logo2 from "./logo2.png"
+
 import './navbar.css';
 class Navbar extends Component {
   state = { showMenu: false }
@@ -18,8 +18,8 @@ class Navbar extends Component {
           <a href="home"><img className="imgnav" src={logo} alt="logo" /></a>
           <div className="navlinks">
             <ul>
-              <li className="linkbutton"><a href="home">about us</a></li>
-              <li className="linkbutton"><a href="home">products</a></li>
+              <li className="linkbutton"><a href="aboutus">about us</a></li>
+              <li className="linkbutton"><a href="Products">products</a></li>
               <li className="linkbutton"><a href="home">dealer network</a></li>
               <li className="linkbutton"><a href="home">contact us</a></li>
             </ul>
@@ -34,8 +34,8 @@ class Navbar extends Component {
       <div className="sep">
         <div className={menuVis}>
           <ul>
-            <li className="linkbutton"><a href="home">about us</a></li>
-            <li className="linkbutton"><a href="home">products</a></li>
+            <li className="linkbutton"><a href="aboutus">about us</a></li>
+            <li className="linkbutton"><a href="Products">products</a></li>
             <li className="linkbutton"><a href="home">dealer network</a></li>
             <li className="linkbutton"><a href="home">contact us</a></li>
           </ul>

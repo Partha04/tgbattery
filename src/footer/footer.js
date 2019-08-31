@@ -9,8 +9,8 @@ class Footer extends Component {
         return (
             <div className='footer'>
                 <div className="fotlink">
-                    <a href="s">about us</a>
-                    <a href="s">products</a>
+                    <a href="aboutus">about us</a>
+                    <a href="products">products</a>
                     <a href="s">dealer network</a>
                     <a href="s">contact us</a>
                 </div>

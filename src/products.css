@@ -1,0 +1,155 @@
+.productpage {
+  display: flex;
+}
+@media screen and (max-width: 900px) {
+  .productpage {
+    display: inline;
+  }
+}
+/*-------------------------------------------------*/
+
+.leftmenu {
+  width: 20%;
+}
+.searchbar {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  background: #4e56cc;
+  margin: 3px;
+  margin-top: 20%;
+}
+.searchbar input {
+  height: 5vh;
+  margin: 3px;
+  width: 80%;
+  font-size: 18px;
+}
+.searchbar img {
+  height: 5vh;
+  font-size: 18px;
+  margin: 3px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+.searchbar img:hover {
+  background: rgb(4,75,143);
+}
+
+.category {
+  margin-top: 20%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.catagorytab {
+  background: rgb(46, 46, 110);
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: aliceblue;
+  margin: 2px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.catagorytab:hover {
+  background: #1ec9ac;
+  color: aliceblue;
+}
+@media screen and (max-width: 900px) {
+  .leftmenu {
+    width: 100%;
+  }
+  .searchbar {
+    margin: 3px;
+  }
+  .category {
+    width: 100%;
+    display: inline-block;
+    margin: 0px;
+    border-bottom: 7px solid#1ec9ac;
+    padding: 10px;
+  }
+  .catagorytab {
+    font-weight: bold;
+    display: inline-block;
+    width: 25%;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    background: transparent;
+    color: black;
+    border: 2px solid gray;
+  }
+}
+
+/*---------------------------------------------------*/
+.productlist {
+  width: 60%;
+}
+.productcard {
+  width: 94%;
+  margin: 3%;
+  margin-left: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  min-height: 200px;
+}
+.img {
+  width: 30%;height:auto;
+  margin: 5px;
+  font-size: 70%;
+  background: white;
+}
+.pdetail {
+  width: 60%;
+  border-left: 2px solid black;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 5vw;
+}
+
+@media screen and (max-width: 900px) {
+.productlist{
+  width:100% ;
+  font-size: 90%;
+}
+
+}
+@media screen and (max-width: 600px) {
+  .productlist{
+    font-size: 70%;
+
+  } 
+  .img{
+    width: 50%;
+   }
+  .pdetail{
+    width: 50%
+  }
+
+}
+/*-------------------------------------------------------*/
+
+.rightcol {
+  width: 20%;
+
+}
+.rightcol img{
+  margin-top: 20px;
+  width: 100%
+}
+
+@media screen and (max-width:900px){
+.rightcol{
+  width: 100%;
+  display: none
+}
+.rightcol img{
+  width: 50%;
+}
+}
