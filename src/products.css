@@ -33,9 +33,7 @@
   color: white;
   cursor: pointer;
 }
-.searchbar img:hover {
-  background: rgb(4,75,143);
-}
+
 
 .category {
   margin-top: 20%;
@@ -81,6 +79,7 @@
     background: transparent;
     color: black;
     border: 2px solid gray;
+    box-shadow:2px 2px #a6aae2
   }
 }
 

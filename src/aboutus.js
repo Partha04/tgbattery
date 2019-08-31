@@ -8,7 +8,7 @@ class Aboutus extends Component {
   render() {
     return (<div>
       <Navbar/>
-      <div class="outer">
+      <div class="outerb">
         <div class="sideabout">
           <div class="sidetab">Company Details</div>
           <div class="sidetab">Company Details</div>
