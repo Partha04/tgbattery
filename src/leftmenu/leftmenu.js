@@ -7,8 +7,7 @@ class Leftmenu extends Component {
     return (
       <div className="leftmenu">
         <div className="searchbar">
-          <input type="text" onChange={handlechange}/>
-          <img src={search} alt="a"/>
+          <input type="text" placeholder=" Type to search..." onChange={handlechange}/>
         </div>
 
         <div className="category">

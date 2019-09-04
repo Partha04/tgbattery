@@ -18,10 +18,10 @@ class Navbar extends Component {
           <a href="/"><img className="imgnav" src={logo} alt="logo" /></a>
           <div className="navlinks">
             <ul>
-              <li className="linkbutton"><a href="aboutus">about us</a></li>
+              <li className="linkbutton" href="aboutus"><a href="aboutus">about us</a></li>
               <li className="linkbutton"><a href="Products">products</a></li>
-              <li className="linkbutton"><a href="home">dealer network</a></li>
-              <li className="linkbutton"><a href="home">contact us</a></li>
+              <li className="linkbutton"><a href="dealernet">dealer network</a></li>
+              <li className="linkbutton"><a href="contactus">contact us</a></li>
             </ul>
           </div>
           <div className="burger" onClick={this.toggleMenu}>
@@ -36,8 +36,8 @@ class Navbar extends Component {
           <ul>
             <li className="linkbutton"><a href="aboutus">about us</a></li>
             <li className="linkbutton"><a href="Products">products</a></li>
-            <li className="linkbutton"><a href="home">dealer network</a></li>
-            <li className="linkbutton"><a href="home">contact us</a></li>
+            <li className="linkbutton"><a href="dealernet">dealer network</a></li>
+            <li className="linkbutton"><a href="contactus">contact us</a></li>
           </ul>
         </div>
       </div>

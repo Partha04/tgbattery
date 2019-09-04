@@ -11,8 +11,8 @@ class Footer extends Component {
                 <div className="fotlink">
                     <a href="aboutus">about us</a>
                     <a href="products">products</a>
-                    <a href="s">dealer network</a>
-                    <a href="s">contact us</a>
+                    <a href="dealernet">dealer network</a>
+                    <a href="contactus">contact us</a>
                 </div>
                 <div className='social'>
                      <h3>Follow us on:</h3>
