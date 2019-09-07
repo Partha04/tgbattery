@@ -1,13 +1,16 @@
 import React, { Component } from "react";
 import Navbar from "./navbar/navbar";
 import Footer from "./footer/footer";
+import dealernetwork from "./assets/dealernetwork.jpg";
 import "./contactus.css";
+import { employee } from "./data/employee";
 class Contactus extends Component {
   state = {};
   render() {
     return (
       <div className="contactus">
         <Navbar />
+        <img className="dealerimg" src={dealernetwork} alt="dl" />
         <div className="contactform">
           <div className="map">
             <h2>Locate Us</h2>
@@ -16,14 +19,35 @@ class Contactus extends Component {
 
           <div className="cname">
             <div className="cadd">
-              <h2>Gupta Autotech</h2>
+              <h1>Gupta Autotech</h1>
+              <h2>(Propriter Mr. Rajesh Kr. Gupta)</h2>
+              <h2 className="under">Contact No: 9874197755</h2>
+              <br />
               <div className="adress">
-                <h3>Adress</h3>
-                <p>adress line `1</p>
-                <p>adress line `1</p>
-                <p>adress line `1</p>
+                <h4>Adress</h4>
+                <p>18A.Mohan Chand Road,
+                Khidirpur,Kolkata,
+                West Bengal-700 023</p>
               </div>
             </div>
+              <br />
+            <h3 className="our">Our Team</h3>
+            <table>
+              <tr>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Phone no</th>
+              </tr>
+              {employee.map(emp => {
+                return (
+                  <tr>
+                    <td>{emp.name}</td>
+                    <td>{emp.designation}</td>
+                    <td>{emp.mobileno}</td>
+                  </tr>
+                );
+              })}
+            </table>
           </div>
         </div>
         <Footer />

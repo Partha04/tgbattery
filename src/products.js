@@ -17,7 +17,7 @@ class Products extends Component {
     this.setState(
       {
         search:e.target.value,
-        listProduct :listProduct.filter(item=>item.p_name.includes(this.state.search))
+        listProduct :listProduct.filter(item=>item.p_name.toLowerCase().includes(this.state.search.toLowerCase()))
       }
       )
     

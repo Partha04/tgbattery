@@ -11,11 +11,11 @@ class Leftmenu extends Component {
         </div>
 
         <div className="category">
-          <div className="catagorytab" onClick={()=>handlesubmit("populer")}>populer</div>
           <div className="catagorytab" onClick={()=>handlesubmit("home")}>home </div>
           <div className="catagorytab"onClick={()=>handlesubmit("cars")}>cars</div>
           <div className="catagorytab"onClick={()=>handlesubmit("tractors")} >tractors</div>
           <div className="catagorytab" onClick={()=>handlesubmit("bikes")}>bikes</div>
+          <div className="catagorytab" onClick={()=>handlesubmit("other")}>others</div>
         </div>
       </div>
     );

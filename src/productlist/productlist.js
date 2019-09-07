@@ -13,6 +13,7 @@ class Productlist extends Component {
               name={producs.p_name}
               image={producs.image}
               details={producs.details}
+              warrenty={producs.warrenty}
               />
             )
           })}
