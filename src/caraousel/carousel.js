@@ -2,7 +2,7 @@ import './carousel.css'
 import React,{Component} from 'react';
 import slider2 from './slider2.jpg'
 import slider3 from './slider3.jpg'
-import slider4 from './slider4.jpg'
+
 
 const images=[slider2,slider3]
 class Carousel extends Component {
