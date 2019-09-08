@@ -1,7 +1,7 @@
 export const listProduct=[
     {
         "id":1,
-       "p_name": "2W Velocity Plus VRL",
+       "p_name": "2W Velocity Plus VRLA",
        "details": ["1.Special Lead Alloy Grids",
        "2.Factory Activated Sealed Design",
        "3.Maintainance free Technology",
