@@ -1,95 +1,22 @@
-*{
-  margin: 0px
-}
-.contactform {
-  display: flex;
-}
-.cname {
-  width: 52%;
-  padding: 2%;
-  padding-top: 0%
-}
-.map {
-  width: 45%;
-  text-align: center;
-}
-.map h2{
-
-  margin-bottom:3vh; 
-  width: 94%;
-padding: 1.5%;
-  background:#1ec9ac;
-  color: aliceblue;
-  align-self: center;
-}
-.map iframe {
-  margin-left: 2%;
-  margin-right:5%; 
-  width: 94%;
-  height: 80vh;
-}
-.cname
-{
-  text-align: center;
-}
-.cadd h1 {
-  
-  color:  rgb(35, 35, 134);
-  border: 3px solid #1ec9ac
-  
-}
-
-.cadd h2
-{
-  
-  color:  rgb(35, 35, 134)
-}
-.under{
-  text-decoration: underline
-}
-
-
-.adress{
-  padding:2%;
-  font-size: 120%;
-  color:rgb(77, 72, 72);
-  border: 2px solid gray;
-  border-radius:5px;text-align: center
-}
-.our{
-  text-align: center
-}
-table {
-  font-family: arial, sans-serif;
-  width: 100%;
-}
-
-th{
-  color:aliceblue;background: #1ec9ac
-}
-td, th {
-  text-align: left;
-  padding: 2%;
-}
-
-
+*{margin:0}
+.contactform{display:flex;margin-top:2% }
+.cname{width:52%;padding:2%;padding-top:0}
+.map{width:45%;text-align:center}
+.map h2{margin-bottom:3vh;width:94%;padding:1.5%;background:#1ec9ac;color:#f0f8ff;align-self:center}
+.map iframe{margin-left:2%;margin-right:5%;width:94%;height:80vh}
+.cname{text-align:center}
+.cadd h1{color:#232386;border-top:5px solid #1ec9ac}
+.cadd h2{color:#232386}
+.under{text-decoration:underline}
+.adress{padding:2%;font-size:120%;color:#4d4848;border:2px solid gray;border-radius:5px;text-align:center}
+.our{text-align:center}
+table{font-family:arial,sans-serif;width:100%}
+th{color:#f0f8ff;background:#1ec9ac}
+td,th{text-align:left;padding:2%}
 @media screen and (max-width:800px){
-.contactform{
-  display: block;
-}
-.map{
-  width: 96%;
-margin: 0px;
-padding-left:2% 
-}
-.cname{
-  width:96% ;
-  font-size:80% ;
-  text-align: center
-}
-.map h2{
-  margin-top:5%;}
-  .map iframe{
-    height: 40vh;
-  }
+.contactform{display:block}
+.map{width:96%;margin:0;padding-left:2%}
+.cname{width:96%;font-size:80%;text-align:center}
+.map h2{margin-top:5%}
+.map iframe{height:40vh}
 }

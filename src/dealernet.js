@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./navbar/navbar";
 import Footer from "./footer/footer";
-import dealernetwork from "./assets/dealernetwork.jpg";
+import dealernetwork from "./assets/dealernetwork.png";
 import "./dealernet.css";
 import Dealercard from "./dealercard/dealercard";
 import { dealers } from "./data/dealers";

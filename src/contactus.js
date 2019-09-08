@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./navbar/navbar";
 import Footer from "./footer/footer";
-import dealernetwork from "./assets/dealernetwork.jpg";
+import contactus from './assets/contactus.png' 
 import "./contactus.css";
 import { employee } from "./data/employee";
 class Contactus extends Component {
@@ -10,7 +10,7 @@ class Contactus extends Component {
     return (
       <div className="contactus">
         <Navbar />
-        <img className="dealerimg" src={dealernetwork} alt="dl" />
+        <img className="dealerimg" src={contactus} alt="dl" />
         <div className="contactform">
           <div className="map">
             <h2>Locate Us</h2>

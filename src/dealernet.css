@@ -1,62 +1,12 @@
-.dealerimg{
-width: 80%;
-height:50vh;
-margin-left: 10%;
-margin-right: 10%;
-}
-.dealernet h2
-{
-    text-align: center
-}
-.selector
-{ 
-    width:20vw;
-    height: 5vh
-}
-
-.dealercardlist{
-    width: 100%
-}
-.dealercard{
-    display:inline-block;
-    width: 23vw;
-    border:2px solid black;
-    margin: 1.5vw;
-    text-align:start;
-    padding: 3%;
-    border-radius: 10px;
-    box-shadow: 5px 5px rgba(128, 128, 128, 0.541)
-
-}
-
-.dealercard h3{
-    padding: 2%;
-    background: #159983;
-    border-radius: 5px;
-    text-transform: capitalize;
-    color: aliceblue
-}
-.go{
-    background:#1ac9ac;
-    float: right;
-    padding: 1%;color: rgb(255, 255, 255);
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: bold
-}
-.go:hover{
-    background:#159983
-
-}
-@media screen and (max-width:700px)
-{   .dealerimg{
-    height: 30vh;
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%
-}
-    .dealercard{
-        width: 80vw;
-        margin: 3.5vw
-    }
+.dealerimg{width:90%;height:60vh;margin-left:5%;margin-right:5%}
+.dealernet h2{text-align:center}
+.selector{width:20vw;height:5vh}
+.dealercardlist{width:100%}
+.dealercard{display:inline-block;width:23vw;border:2px solid #000;margin:1.5vw;text-align:start;padding:3%;border-radius:10px;box-shadow:5px 5px rgba(128,128,128,.541)}
+.dealercard h3{padding:2%;background:#159983;border-radius:5px;text-transform:capitalize;color:#f0f8ff}
+.go{background:#1ac9ac;float:right;padding:1%;color:#fff;cursor:pointer;border-radius:5px;font-weight:700}
+.go:hover{background:#159983}
+@media screen and (max-width:700px){
+.dealerimg{height:30vh;width:100%;margin-right:0%;margin-left:0%}
+.dealercard{width:80vw;margin:3.5vw}
 }

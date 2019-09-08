@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./navbar/navbar";
 import Footer from "./footer/footer";
-import dealernetwork from "./assets/dealernetwork.jpg";
+import aboutus from "./assets/aboutus.png";
 import "./aboutus.css";
 import { aboutusinfo } from "./data/aboutusinfo";
 class Aboutus extends Component {
@@ -15,7 +15,7 @@ class Aboutus extends Component {
     return (
       <div>
         <Navbar />
-        <img className="dealerimg" src={dealernetwork} alt="dl" />
+        <img className="dealerimg" src={aboutus} alt="dl" />
         <div class="outerb">
           <div class="sideabout">
             <div class="sidetab" onClick={() => this.setdetails(0)}>
