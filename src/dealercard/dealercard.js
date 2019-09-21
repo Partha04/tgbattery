@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 class Dealercard extends Component {
     state = {  }
     render() { 
-        const {id,dealername,adress}=this.props
+        const {dealername,adress}=this.props
         return (
             <div className="dealercard">
             <h3>{dealername}</h3>

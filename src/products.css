@@ -32,7 +32,7 @@
 .impro{width:50%}
 .pdetail{width:50%}
 }
-.rightcol{width:20%}
+.rightcol{width:20%;padding-top: 10px}
 .rightcol img{margin-top:20px;width:100%}
 @media screen and (max-width:900px){
 .rightcol{width:100%;display:none}

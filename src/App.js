@@ -3,7 +3,7 @@ import Landing from "./landing";
 import Products from "./products";
 import Aboutus from './aboutus'
 import Contactus from './contactus'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route} from "react-router-dom";
 import Dealernet from "./dealernet";
 function App() {
   return (

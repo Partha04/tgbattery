@@ -5,7 +5,6 @@ import home from './home.png'
 import bikes from './bikes.png'
 import cars from './cars.png'
 import trctors from './tractors.png'
-import { transcode } from 'buffer';
 
 class Apllications extends Component {
     state = {  }

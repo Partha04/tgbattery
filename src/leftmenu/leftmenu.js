@@ -1,5 +1,4 @@
 import React ,{Component}from "react";
-import search from "../assets/search.png";
 class Leftmenu extends Component {
   state = {};
   render() {

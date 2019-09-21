@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import pic1 from './images/pic1.jpg'
 class Productcard extends Component {
   state = {};
   render() { 
