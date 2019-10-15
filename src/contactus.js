@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./navbar/navbar";
 import Footer from "./footer/footer";
-import contactus from './assets/contactus.png' 
+import contactus from './assets/contactus.jpg' 
 import "./contactus.css";
 import { employee } from "./data/employee";
 class Contactus extends Component {

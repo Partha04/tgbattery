@@ -30,9 +30,7 @@ class Aboutus extends Component {
             <div class="sidetab" onClick={() => this.setdetails(3)}>
               Awards
             </div>
-            <div class="sidetab" onClick={() => this.setdetails(4)}>
-              Heritage
-            </div>
+            
             <a href="contactus">
               <div class="sidetab2">Locate Us</div>
             </a>

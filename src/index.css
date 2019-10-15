@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+*
+{
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3{
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase
+}
